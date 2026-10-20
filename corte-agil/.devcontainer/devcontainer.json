@@ -1,0 +1,13 @@
+{
+  "name": "Corte Agil (Angular)",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "postCreateCommand": "npm install && npm install -g @angular/cli",
+  "forwardPorts": [4200],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Angular.ng-template"
+      ]
+    }
+  }
+}
